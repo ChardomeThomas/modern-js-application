@@ -1,0 +1,30 @@
+{
+  "name": "modern-js-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "rm -rf .cache dist && parcel build index.html --dist-dir docs --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChardomeThomas/modern-js-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChardomeThomas/modern-js-application/issues"
+  },
+  "homepage": "https://github.com/ChardomeThomas/modern-js-application#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "2.2.1"
+  }
+}
